@@ -172,11 +172,11 @@
   ;; MODE SUPPORT tab-bar-mode
   (tab-bar (:foreground darktooth-light0 :background darktooth-dark0))
   (tab-bar-tab (:foreground darktooth-light0 :background darktooth-dark0))
-  
+
   ;; MODE SUPPORT tab-line-mode
   (tab-line (:foreground darktooth-light0 :background darktooth-dark0))
   (tab-bar-tab-inactive (:foreground darktooth-light0 :background darktooth-dark0))
-  
+
   ;; MODE SUPPORT: which-key
   (which-key-key-face                        (:inherit 'font-lock-variable-name-face))
 
@@ -745,6 +745,12 @@
   (message-separator                         (:foreground darktooth-faded_cyan ))
   (message-cited-text                        (:foreground darktooth-light3 ))
   (message-mml                               (:foreground darktooth-faded_aqua ))
+
+  ;; MODE SUPPORT: Gnus article
+  (gnus-header-name                          (:foreground darktooth-bright_cyan ))
+  (message-header-from                       (:foreground darktooth-bright_cyan ))
+  (gnus-header-content                       (:foreground darktooth-muted_cyan  ))
+  (gnus-header-subject                       (:foreground darktooth-light2 ))
 
   ;; MODE SUPPORT: Web
   (web-mode-doctype-face                     (:foreground darktooth-light2 :weight 'bold))
